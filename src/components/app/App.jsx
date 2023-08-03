@@ -3,7 +3,7 @@ import Table from 'components/Table/LargeTable';
 import SmallTable from 'components/Table/SmallTable';
 
 function App() {
-  const adaptiveSize = 767;
+  const adaptiveSize = 768;
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
